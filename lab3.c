@@ -16,7 +16,7 @@ void print(int a[], int size) {
 }
 
 int* Elements(int a[], int size1, int b[], int size2, int* newSize) {
-    int max_size = size1 < size2 ? size1 : size2; // размер результирующего массива не превышает размера наименьшего массива
+    int max_size = (size1 < size2) ? size1 : size2; // размер результирующего массива не превышает размера наименьшего массива
     int* result = (int*)malloc(max_size * sizeof(int));
 
     int index = 0;
