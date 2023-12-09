@@ -90,3 +90,7 @@ int main()
 
  ### Результат программы.
 ![](результат.png)
+
+## Список используемых источников:
+
+1. [realloc and malloc](https://metanit.com/c/tutorial/5.8.php)
